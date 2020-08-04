@@ -1,0 +1,28 @@
+.Thing {
+	animation: Title-bar 4s linear infinite;
+}
+@keyframes Title-bar {
+	from {background:linear-gradient(to left, #00aae8, purple);}
+	to {background:linear-gradient(to left, purple, #00aae8);}
+}
+.links {
+	color: Blue;
+	font-size: 100%;
+	font-family: "Times New Roman", serif;
+	text-decoration: none; 
+	font-weight: 300;
+}
+#Title {
+	color:Green;
+}
+#links {
+	display:inline;
+}
+body {
+	color:Yellow;
+	background-image:linear-gradient(to bottom, #ffff00, #92c41d, #008000, #2bc2bd, #0e00d6, #c41dbe);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100%;
+	
+}
