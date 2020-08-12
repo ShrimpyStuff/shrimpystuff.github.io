@@ -18,6 +18,9 @@
 #links {
 	display:inline;
 }
+Bot {
+	display:block;
+}
 body {
 	color:Yellow;
 	height:100%;
