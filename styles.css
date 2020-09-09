@@ -2,8 +2,9 @@
 	animation: Title-bar 4s linear infinite;
 }
 @keyframes Title-bar {
-	from {background:linear-gradient(to left, purple);}
-	to {background:linear-gradient(to left, #00aae8);}
+	0% {background:purple;}
+	50% {background:#00aae8;}
+	100% {background:purple;}
 }
 .links {
 	color: Blue;
