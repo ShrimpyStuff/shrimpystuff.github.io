@@ -24,5 +24,5 @@ body {
 	height:100%;
 	background-image:linear-gradient(to bottom, #2bc2bd, #0e00d6, #c41dbe);
 	background-size:cover;
-	//background-repeat:no-repeat;
+	background-repeat:repeat-y;
 }
