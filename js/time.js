@@ -5,5 +5,5 @@ function Main(){
     var hours = time.getHours();
     var minutes = time.getMinutes();
     var seconds = time.getSeconds();
-    document.getElementById("time").innerHTML = hours + ':' + minutes + ':' + seconds;
+    document.getElementById("time").innerHTML =  "<h1>" + hours + ':' + minutes + ':' + seconds + "</h1>";
 }
