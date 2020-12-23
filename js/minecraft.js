@@ -1,6 +1,6 @@
 let online = false;
 
-var url = "http://api.mcsrvstat.us/2/servantchild.ddns.net";
+var url = "https://api.mcsrvstat.us/2/servantchild.ddns.net";
 
 var xhr = new XMLHttpRequest();
 xhr.open("GET", url);
