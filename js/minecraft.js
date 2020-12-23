@@ -11,8 +11,6 @@ xhr.onreadystatechange = function () {
       console.log(xhr.responseText);
    }};
 
-var data = '{
-"content":"🟢 The Server is ONLINE 🟢"
-}';
+var data = '{"content":"🟢 The Server is ONLINE 🟢"}';
 
 xhr.send(data);
