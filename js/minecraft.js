@@ -7,9 +7,8 @@ xhr.open("GET", url);
 
 xhr.onreadystatechange = function () {
    if (xhr.readyState === 4) {
-      //console.log(xhr.status);
-      //console.log(xhr.responseText);
-      console.log(JSON.parse(xhr.response).online)
+      console.log(xhr.status);
+      console.log(xhr.responseText);
       if (JSON.parse(xhr.response).online) online = true;
    }};
 
