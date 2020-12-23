@@ -11,6 +11,7 @@ var distance = countDownDate - now;
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+ if (days > 92) return;
  document.getElementById("Spook").innerHTML = "<h1>" + days + "d " + hours + "h "
   + minutes + "m " + seconds + "s " + " till Spooktober</h1>";
     if (month == 9) {
