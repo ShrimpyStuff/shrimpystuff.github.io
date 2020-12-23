@@ -1,10 +1,5 @@
 .Thing {
-	animation: Title-bar 4s linear infinite;
-}
-@keyframes Title-bar {
-	0% {background:purple;}
-	50% {background:#00aae8;}
-	100% {background:purple;}
+	background:#00aae8;
 }
 .links {
 	color: Blue;
