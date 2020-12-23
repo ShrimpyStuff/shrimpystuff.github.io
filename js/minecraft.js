@@ -9,6 +9,7 @@ xhr.onreadystatechange = function () {
    if (xhr.readyState === 4) {
       console.log(xhr.status);
       console.log(xhr.responseText);
+      if (JSON.parse(xhr.response).online) online = true;
    }};
 
 xhr.send();
