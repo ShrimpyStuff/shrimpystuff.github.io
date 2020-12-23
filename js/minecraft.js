@@ -31,5 +31,5 @@ xhrW.onreadystatechange = function () {
 
 var data = '{"content":"🟢 The Server is ONLINE 🟢"}';
 
-xhW.send(data);
+xhrW.send(data);
 }
