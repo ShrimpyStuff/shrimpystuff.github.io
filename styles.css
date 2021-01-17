@@ -17,5 +17,8 @@
 body {
 	color:Yellow;
 	height:100%;
-	background-color: Purple
+	background-color: Purple;
+}
+a {
+	color: Blue;
 }
