@@ -1,4 +1,4 @@
-My random HTML and CSS testing page.
+My random HTML and CSS page.
 =
 https://shrimpystuff.github.io/
 -
