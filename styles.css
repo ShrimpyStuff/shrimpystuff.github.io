@@ -20,4 +20,6 @@ body {
 a {
 	color: Green;
 }
-
+.links a {
+	margin-right: 10px;
+}
