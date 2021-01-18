@@ -11,9 +11,6 @@
 #Title {
 	color:Green;
 }
-#links {
-	display:inline;
-}
 body {
 	color:Yellow;
 	height:100%;
@@ -21,4 +18,7 @@ body {
 }
 a {
 	color: Green;
+}
+#link-list li {
+	display: inline;
 }
