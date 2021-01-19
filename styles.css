@@ -21,5 +21,6 @@ div#Main-Page-Projects a {
 	color: ghostwhite;
 }
 .links a {
-	margin-right: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
