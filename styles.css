@@ -24,3 +24,8 @@ div#Main-Page-Projects a {
 	margin-right: 5px;
 	margin-left: 5px;
 }
+#Main-Page-Projects {
+	background:#00aae8;
+	min-height: 200px;
+	color: Green;
+}
