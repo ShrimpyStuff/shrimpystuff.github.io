@@ -5,7 +5,6 @@
 
 .Thing {
 	background:#00aae8;
-	font-family: Metrica;
 }
 .links {
 	color: Blue;
@@ -14,9 +13,6 @@
 	text-decoration: none; 
 	font-weight: 300;
 	display: inline;
-}
-#Title {
-	color: Green;
 }
 body {
 	color:Yellow;
@@ -35,4 +31,6 @@ body {
 .TitleHeader {
 	background-color: chartreuse;
 	text-align: center;
+	color: Black;
+	font-family: Metrica;
 }
