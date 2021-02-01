@@ -22,11 +22,11 @@ body {
 	margin-left: 5px;
 }
 #Main-Page-Projects {
-	background:#00aae8;
+	background-color:#00aae8;
 	min-height: 200px;
 	color: Green;
 }
 .TitleHeader {
-	background: blue;
+	background-color: chartreuse;
 	text-align: center;
 }
