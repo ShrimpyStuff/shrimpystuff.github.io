@@ -17,9 +17,6 @@ body {
 	height:100%;
 	background-color: Purple;
 }
-div#Main-Page-Projects a {
-	color: ghostwhite;
-}
 .links a {
 	margin-right: 5px;
 	margin-left: 5px;
