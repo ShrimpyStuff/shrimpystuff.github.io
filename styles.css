@@ -15,9 +15,9 @@
 	display: inline;
 }
 body {
-	color:Yellow;
+	color: Yellow;
 	height:100%;
-	background-color: Purple;
+	background-color: darkorchid;
 }
 .links a {
 	margin-right: 5px;
@@ -29,7 +29,7 @@ body {
 	color: Green;
 }
 .TitleHeader {
-	background-color: chartreuse;
+	background-color: gold;
 	text-align: center;
 	color: Black;
 	font-family: Metrica;
