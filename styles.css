@@ -1,11 +1,11 @@
 @font-face {
-  font-family: Ace Records;
-  src: url('/fonts/Ace Records.ttf');
+  font-family: Metrica;
+  src: url('/fonts/Metrica.otf');
 }
 
 .Thing {
 	background:#00aae8;
-	font-family: "Ace Records";
+	font-family: Metrica;
 }
 .links {
 	color: Blue;
