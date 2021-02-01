@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Ace Records;
+  src: url(fonts/Ace Records.ttf);
+}
+
 .Thing {
 	background:#00aae8;
 	font-family: "Ace Records";
