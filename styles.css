@@ -11,9 +11,9 @@
 	display: inline;
 }
 body {
-	color: Yellow;
+	color: royalblue;
 	height:100%;
-	background-color: darkorchid;
+	background-color: powderblue;
 }
 .links a {
 	margin-right: 5px;
@@ -23,7 +23,7 @@ body {
 	min-height: 200px;
 }
 .TitleHeader {
-	background-color: gold;
+	background-color: #ff751a;
 	text-align: center;
 	color: Black;
 	font-family: Metrica;
