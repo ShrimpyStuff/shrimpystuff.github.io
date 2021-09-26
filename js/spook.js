@@ -4,7 +4,8 @@ function Main(){
     var date = new Date();
 var now = new Date().getTime();
 var month = date.getMonth();
-var countDownDate = new Date("Oct 1, 2021 0:0:0").getTime();
+var year = date.getYear();
+var countDownDate = new Date(`Oct 31, ${year} 0:0:0`).getTime();
 var distance = countDownDate - now;
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
