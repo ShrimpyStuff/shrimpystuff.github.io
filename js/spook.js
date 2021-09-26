@@ -14,9 +14,9 @@ var distance = countDownDate - now;
 
  if (days > 45) return;
  document.getElementById("Spook").innerHTML = "<h1>" + days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s " + " till Spooktober</h1>";
+  + minutes + "m " + seconds + "s " + " till Halloween</h1>";
     if (month == 9) {
-        document.getElementById("Spook").innerHTML = "<h1>It's Spooktober!!!</h1>";
+        document.getElementById("Spook").innerHTML = "<h1>It's Halloween!!!</h1>";
     } else if (distance < 0) {
         document.getElementById("Spook").innerHTML = "<h1>This is expired please wait for me to update it.</h1>";
     }
