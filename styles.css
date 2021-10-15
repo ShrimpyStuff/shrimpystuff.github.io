@@ -39,6 +39,8 @@ body {
 .sectionButton {
 	background: transparent;
     	border: none;
+	font-family: 'Metrica';
+    	font-size: 120%;
 }
 ::-webkit-scrollbar {
     width: 10px;
