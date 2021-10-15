@@ -38,7 +38,7 @@ body {
 }
 .sectionButton {
 	background: transparent;
-    	border: none;
+    	border-style: hidden;
 	font-family: 'Metrica';
     	font-size: 120%;
 }
