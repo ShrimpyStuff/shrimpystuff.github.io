@@ -28,12 +28,6 @@ body {
 	color: Black;
 	font-family: Metrica;
 }
-.Right {
-	margin-left: 50%;
-}
-.Left {
-	margin-right: 50%;
-}
 .social-link:hover {
 	box-shadow: 10px 10px 5px grey;
 }
