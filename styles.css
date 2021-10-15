@@ -42,6 +42,9 @@ body {
 	font-family: 'Metrica';
     	font-size: 120%;
 }
+.sectionButton:hover {
+	border-style: dotted; 
+}
 ::-webkit-scrollbar {
     width: 10px;
 }
