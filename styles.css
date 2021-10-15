@@ -33,6 +33,8 @@ body {
 }
 .social-link {
 	border-radius: 50%;
+	width: 9%;
+	height: 9%;
 }
 ::-webkit-scrollbar {
     width: 10px;
