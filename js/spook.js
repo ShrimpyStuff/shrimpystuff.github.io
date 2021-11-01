@@ -18,7 +18,9 @@ var distance = countDownDate - now;
   + minutes + "m " + seconds + "s " + " till Halloween</h1>";
     if (month == 9 && day == 31) {
         document.getElementById("Spook").innerHTML = "<h1>It's Halloween!!!</h1>";
-    } else if (distance < 0) {
-        document.getElementById("Spook").innerHTML = "<h1>This is expired please wait for me to update it.</h1>";
+    } else if (distance < 0 || distance > -9) {
+        document.getElementById("Spook").innerHTML = "<h1>Halloween is done.</h1>";
+    } else if (distance < -9) {
+        document.getElementById("Spook").style.display = "none";
     }
 }
