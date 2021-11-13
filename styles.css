@@ -27,7 +27,7 @@ body {
 	text-align: center;
 	color: Black;
 	font-family: Metrica;
-	border-image: url(images/border.png) 30 round;
+	border-image: url('/images/border.png') 30 round;
 }
 .social-link:hover {
 	box-shadow: 10px 10px 5px grey;
