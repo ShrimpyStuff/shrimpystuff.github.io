@@ -13,7 +13,10 @@ function Main(){
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
- if (days > 45 || days < -7) return clearInterval(update_loop);
+ if (days > 45 || days < -7) {
+	clearInterval(update_loop);
+	document.getElementById("Spook").style.display = "none"; 
+ };
  document.getElementById("Spook").innerHTML = "<h1>" + days + "d " + hours + "h "
   + minutes + "m " + seconds + "s " + " till Halloween</h1>";
     if (month == 9 && day == 31) {
