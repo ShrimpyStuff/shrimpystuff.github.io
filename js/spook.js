@@ -13,14 +13,12 @@ function Main(){
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
- if (days > 45 || days < -7) return;
+ if (days > 45 || days < -7) return clearInterval(update_loop);
  document.getElementById("Spook").innerHTML = "<h1>" + days + "d " + hours + "h "
   + minutes + "m " + seconds + "s " + " till Halloween</h1>";
     if (month == 9 && day == 31) {
         document.getElementById("Spook").innerHTML = "<h1>It's Halloween!!!</h1>";
-    } else if (distance < 0 || distance > -9) {
+    } else if (distance < 0) {
         document.getElementById("Spook").innerHTML = "<h1>Halloween is done.</h1>";
-    } else if (distance < -7) {
-        document.getElementById("Spook").style.display = "none";
     }
 }
