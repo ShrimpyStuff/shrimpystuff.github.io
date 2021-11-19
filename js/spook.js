@@ -15,7 +15,8 @@ function Main(){
 
  if (days > 45 || days < -7) {
 	clearInterval(update_loop);
-	document.getElementById("Spook").style.display = "none"; 
+	document.getElementById("Spook").style.display = "none";
+	return;
  };
  document.getElementById("Spook").innerHTML = "<h1>" + days + "d " + hours + "h "
   + minutes + "m " + seconds + "s " + " till Halloween</h1>";
