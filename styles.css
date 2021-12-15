@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Metrica;
-  src: url('/fonts/Metrica.ttf');
+  font-family: Lobster;
+  src: url('/fonts/Lobster-Regular.ttf');
 }
 .links {
 	color: Blue;
@@ -26,7 +26,7 @@ body {
 	background-color: darkseagreen;
 	text-align: center;
 	color: Black;
-	font-family: Metrica;
+	font-family: Lobster;
 	border-image: url('/images/border.png') 30 round;
 }
 .social-link:hover {
