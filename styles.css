@@ -40,7 +40,7 @@ body {
 .sectionButton {
 	background: transparent;
     	border-style: hidden;
-	font-family: 'Metrica';
+	font-family: Lobster;
     	font-size: 120%;
 }
 .sectionButton:hover {
