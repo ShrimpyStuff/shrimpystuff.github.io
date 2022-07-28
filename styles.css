@@ -13,7 +13,7 @@
 body {
 	color: #967bb6;
 	height:100%;
-	background-color: powderblue;
+	background-color: rgb(159, 188, 243);
 }
 .links a {
 	margin-right: 5px;
@@ -23,14 +23,14 @@ body {
 	min-height: 200px;
 }
 .TitleHeader {
-	background-color: darkseagreen;
+	background-color: rgb(159, 243, 231);
 	text-align: center;
 	color: Black;
 	font-family: Lobster;
 	border-image: url('/images/border.png') 30 round;
 }
 .social-link:hover {
-	box-shadow: 10px 10px 5px grey;
+	box-shadow: 10px 10px 50px grey;
 }
 .social-link {
 	border-radius: 50%;
