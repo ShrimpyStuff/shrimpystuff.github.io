@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Lobster;
+    src: url('./fonts/Lobster-Regular.ttf');
+}
+
+body {
+    text-align: center;
+    background-color: rgb(159, 188, 243);
+    margin: 0px;
+}
+
+section.container{
+    background-color: rgb(159, 243, 231);
+    color: #967bb6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 1%;
+    margin-bottom: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Lobster;
+}
+
+section .text-box {
+    font-family: initial;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section .text-box span {
+    background-color: rgb(40, 212, 255);
+    padding: 10px;
+}
+
+section#title {
+    margin: 20px;
+    padding-top: 220px;
+    padding-bottom: 280px;
+    font-family: Lobster;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(17, 111, 165);
+    border-color: rgb(0, 40, 87);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.social-link:hover {
+	box-shadow: 10px 10px 50px grey;
+}
+.social-link {
+	border-radius: 50%;
+	width: 9%;
+	height: 9%;
+}
