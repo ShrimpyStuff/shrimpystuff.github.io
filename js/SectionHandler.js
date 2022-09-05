@@ -1,8 +1,19 @@
-function Hide(exception) {
-  let section = document.getElementsByClassName("section")
-  for (let i = 0; i < section.length; i++)
-  {
-    section[i].style.display = "none"
+function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
   }
-  document.getElementById(exception).style.display = "block"
-}
+  
+  window.addEventListener("scroll", reveal);
+
+  reveal();
