@@ -3,6 +3,15 @@
     src: url('./fonts/Lobster-Regular.ttf');
 }
 
+@keyframes bob {
+    0%, 100% {
+        bottom: 2%;
+    }
+    50% {
+        bottom: 7%;
+    }
+}
+
 body {
     text-align: center;
     background-color: rgb(159, 188, 243);
@@ -33,6 +42,7 @@ section .text-box span {
 }
 
 section#title {
+    font-size: 140%;
     margin: 20px;
     padding-top: 220px;
     padding-bottom: 280px;
@@ -72,4 +82,16 @@ section#title {
 	border-radius: 50%;
 	width: 9%;
 	height: 9%;
+}
+
+#scrollIndicator {
+    animation: bob 1s linear infinite;
+    position: absolute;
+    right: 0%;
+    bottom: 2%;
+}
+
+#scrollIndicatorText {
+    font-weight: normal;
+    margin-bottom: 0%;
 }
