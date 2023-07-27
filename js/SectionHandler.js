@@ -17,7 +17,6 @@ function reveal() {
 function scrollIndicate() {
   let scrolldiv = document.querySelector("#scrollIndicator");
   if (window.scrollY > 230) {
-    console.log(window.scrollY);
     scrolldiv.style.opacity = 0;
   } else {
     scrolldiv.style.opacity = 1;
