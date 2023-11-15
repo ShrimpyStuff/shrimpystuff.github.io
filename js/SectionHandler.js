@@ -4,7 +4,7 @@ function reveal() {
   for (let i = 0; i < reveals.length; i++) {
     let windowHeight = window.innerHeight;
     let elementTop = reveals[i].getBoundingClientRect().top;
-    let elementVisible = 150;
+    let elementVisible = (3/14)*windowHeight;
 
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
@@ -16,7 +16,7 @@ function reveal() {
 
 function scrollIndicate() {
   let scrolldiv = document.querySelector("#scrollIndicator");
-  if (window.scrollY > 230) {
+  if (window.scrollY > (23/70)*window.innerHeight) {
     scrolldiv.style.opacity = 0;
   } else {
     scrolldiv.style.opacity = 1;

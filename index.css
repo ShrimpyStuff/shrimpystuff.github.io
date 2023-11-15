@@ -51,7 +51,7 @@ section#title {
 
 .reveal{
     position: relative;
-    transform: translateY(150px);
+    transform: translateY(21.429dvh);
     opacity: 0;
     transition: 2s all ease;
 }
