@@ -14,13 +14,14 @@
 
 body {
     text-align: center;
-    background-color: rgb(159, 188, 243);
+    background-color: rgb(220, 230, 240);
     margin: 0px;
+    color: rgb(55,55,55);
 }
 
 section.container{
-    background-color: rgb(159, 243, 231);
-    color: #967bb6;
+    border-radius: 50px;
+    background-color: rgb(80, 110, 150);
     padding-top: 10px;
     padding-bottom: 10px;
     padding: 1%;
@@ -53,7 +54,7 @@ section#title {
     position: relative;
     transform: translateY(21.429dvh);
     opacity: 0;
-    transition: 2s all ease;
+    transition: 1.5s all ease;
 }
 
 .reveal.active{
@@ -71,7 +72,7 @@ section#title {
     background: rgb(17, 111, 165);
     border-color: rgb(0, 40, 87);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 10px;
 }
 
@@ -84,7 +85,7 @@ section#title {
 }
 
 #scrollIndicator {
-    animation: bob 1s linear infinite;
+    animation: bob 2s linear infinite;
     position: absolute;
     right: 0%;
     bottom: 2%;
