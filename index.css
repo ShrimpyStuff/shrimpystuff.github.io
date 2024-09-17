@@ -3,6 +3,11 @@
     src: url('./fonts/Lobster-Regular.ttf');
 }
 
+@font-face {
+	font-family: Nexa-Rust
+	src: url('./fonts/nexa-rust.sans-black.otf');
+}
+
 @keyframes bob {
     0%, 100% {
         bottom: 2%;
